@@ -1,0 +1,9 @@
+<RCC>
+    <qresource lang="FR" prefix="/font">
+        <file>fonts/From_Cartoon_Blocks.ttf</file>
+    </qresource>
+    <qresource lang="FR" prefix="/images">
+        <file>images/placeholder_02.jpg</file>
+        <file>images/placeholder_03.jpg</file>
+    </qresource>
+</RCC>

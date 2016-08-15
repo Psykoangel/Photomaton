@@ -8,13 +8,18 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+QT += multimedia multimediawidgets
+
 TARGET = Photomaton
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += src/main.cpp\
+           src/mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += src/mainwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += src/gui/mainwindow.ui
+
+RESOURCES += \
+    resource/resources.qrc
